@@ -8,9 +8,9 @@ import java.sql.DriverManager;
  * @version 1.0.  (07 de Septiembre del 2021)
  */
 public class DBConnection {
-    private static String urlDB = "";
-    private static String usuarioDB = "";
-    private static String passwordDB = "";
+    private static String urlDB = "postgres://bpizdmrsmwecgb:a439452841eef925377111528366604c179cdf3990892f312e3df4714713baf7@ec2-54-236-137-173.compute-1.amazonaws.com:5432/dfk2hlma6nqa41";
+    private static String usuarioDB = "bpizdmrsmwecgb";
+    private static String passwordDB = "a439452841eef925377111528366604c179cdf3990892f312e3df4714713baf7";
     private static Connection connection = null;
     /**
      * Metodo principal encargado de gestionar la URL de la base de datos, el ususario y la clave de la misma.
